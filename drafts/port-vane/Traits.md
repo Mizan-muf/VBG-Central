@@ -33,7 +33,7 @@ Three things worth saying before the tables.
 | Trait | Who you are | Covers | Does not cover |
 |---|---|---|---|
 | **Bone-Saw** | A field butcher working a cordon before the corpse dissolves. | Harvesting, Carrion anatomy, working fast and precisely beside something still twitching. | Fighting anything healthy. You arrive after. |
-| **Apothecary** | You refine tissue into stabilisers, and you know what is in them. | Chemistry, dosing, spotting adulterated product, what grey stabilisers actually do to people. | Anything above street-lab scale. You do not run the firm. |
+| **Apothecary** | You refine tissue into stabilisers, and you know what is in them. | Chemistry, dosing, spotting adulterated product, and knowing which batch of stabilisers is worth what someone is asking. | Anything above street-lab scale. You do not run the firm. |
 | **Carrion Broker** | You sell the parts and you know the floor. | Appraisal, negotiating value, knowing who wants what and what they will not admit to wanting. | Honesty. People who deal with you twice have learned something. |
 
 ### District Marshals
@@ -50,7 +50,7 @@ Three things worth saying before the tables.
 | Trait | Who you are | Covers | Does not cover |
 |---|---|---|---|
 | **Tethered** | Still human, newly converted, and certain. | Cult doctrine, recruiting the desperate, going without stabilisers longer than anyone should. | Anything the Cult has not told you, which is most of it. |
-| **Ash-Eater** | You have induced Burnout deliberately, more than once. | Enduring pain, Overreach ([Domains](Domains.md) §4), frightening people who know what your eyes mean. | Passing a Ledger inspection, or a conversation with a stranger. |
+| **Ash-Eater** | You eat what you kill, and you have for a while. | Carrion anatomy by taste, enduring what that does to you, frightening people who know what your teeth mean. | Passing a Ledger inspection, or a conversation with a stranger. |
 | **Marrow-Forged** | Permanently fused with monster tissue. Visibly. | Physical feats a human body cannot produce, Carrion biology understood from the inside. | Being in public. Anywhere. |
 
 ### Strays
@@ -59,7 +59,7 @@ Three things worth saying before the tables.
 |---|---|---|---|
 | **Holdout Warden** | You protect specific blocks, and everyone on them knows your face. | That block's people, routes, and rooftops; barricades; standing between something and a door. | Anywhere else in the city, where you are nobody with a reputation for trouble. |
 | **Old Blood** | Years off-grid without mutating, dying, or being taken. | Safehouses, brokering bulk shipments, not being found, reading who is about to inform. | Anything that requires giving a name. |
-| **Green-Mark** | Newly awakened, freshly defaulted, or recently run. | Raw untrained output, desperation, having genuinely nothing left to lose. | Control — of your Domain, your Burnout, or your situation. |
+| **Green-Mark** | Newly awakened, freshly defaulted, or recently run. | Raw untrained output, desperation, having genuinely nothing left to lose. | Control — of your Domain, your supply, or your situation. |
 | **Debt Runner** | You move product and people across rings for whoever is paying. | Routes, couriers, flood-gates and checkpoints, crossing rings unseen. | Loyalty. Everyone you work for knows it and prices it in. |
 
 ### City trades
@@ -85,7 +85,7 @@ Open to any affiliation, including none.
 | **Lockwork** | Locks, shutters, cages, and the Ledger Cellar's door mechanisms. |
 | **Chemical Nose** | Telling one compound from another by smell — accelerant, stabiliser grade, Carrion bile. |
 | **Bone Latin** | The anatomical and pharmaceutical jargon the Exchange floor runs on. |
-| **Ledger Hand** | Bookkeeping, balances, interest, and reading a contract for the clause. |
+| **Ledger Hand** | Contracts, crew lists, licensing paperwork, and reading a clause for what it actually obliges you to. |
 | **Radio Discipline** | Net protocol, call signs, and passing information in ten seconds before the static takes it. |
 | **Knife Work** | Close, quiet, and personal. |
 | **Climbing Crew** | Rooftops, container stacks, fire escapes, rigging. |
@@ -109,14 +109,14 @@ These are things that happened to you. Each is genuinely useful somewhere, which
 
 | Trait | Covers |
 |---|---|
-| **Ash Taste** | You know the early signs of Burnout in yourself and in others, before anything shows on a test. |
+| **Ash Taste** | You can tell refined tissue from cut tissue, and a good dose from a bad one, by taste alone. |
 | **Scar Tissue** | Enduring pain, and being visibly someone who has already survived worse than this. |
 | **Static Deaf** | Long exposure to Dead Static. You read a room by vibration and air pressure instead of sound. |
 | **Marked Face** | You are recognised on sight in certain districts. Useful exactly when being recognised helps. |
-| **Grey Habit** | Long dependence on cut-rate stabilisers. You know the black market for them from the buying side. |
+| **Scrounged** | You have kept yourself supplied without a licence for years. You know every unofficial source of a dose in your ring. |
 | **Cold Read** | You have been lied to professionally enough to spot the shape of it. |
 | **Sleepless** | Watches, vigils, and staying functional on the far side of an all-night incursion. |
-| **Debt Collar** | A Ledger balance large enough to be a fact about you. It opens doors that open only for the desperate. |
+| **Lapsed** | Your Sanction is gone and everyone knows. It shuts every official door and opens the ones that only open for people with nothing to protect. |
 
 ### Connected
 
@@ -129,7 +129,7 @@ A connection is a person, and a person can be unavailable, angry, or dead. The D
 | **Cult Whisper** | You know how to get a message to the Hollowed, and they do not kill the messenger. |
 | **Salvage Skim** | A Knacker who sets aside things before the appraisers arrive. |
 | **Warden's Word** | A Holdout Warden vouches for you, which is worth more in the outer blocks than any licence. |
-| **Bootleg Line** | A reliable grey stabiliser supplier who has not yet poisoned anyone you know. |
+| **Bootleg Line** | Someone who moves stabilisers that never passed through the Exchange floor. |
 | **Dock Steward** | Someone who controls what moves through one Ring 3 terminal. |
 | **Press Contact** | A reporter who still files stories, and occasionally publishes one. |
 

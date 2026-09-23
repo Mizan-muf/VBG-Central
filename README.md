@@ -42,4 +42,4 @@ The base rules and VBG-Z remain an unedited baseline. VBG 2.2 is the active draf
 
 As of **2026-09-24**, the VBG 2.2 [Decision Log](drafts/vbg-2.2/Decision%20Log.md) has an empty pending list — every rule it tracks is written into the document that owns it. Two repository decisions remain outstanding and are not rules questions: a **licence and author credit**, and whether to rename files out of spaces. Both are recorded as Q20 and Q21 in the [open questions](docs/revision-notes/OPEN_QUESTIONS.md).
 
-[Port Vane](drafts/port-vane/README.md) is the first setting module. It scaffolds on 2.2 rather than forking it: it adds Domain loudness as a noise trigger, a Burnout track, and its own catalogs and gear entries, and reads every other mechanic from the base set.
+[Port Vane](drafts/port-vane/README.md) is the first setting module. It scaffolds on 2.2 rather than forking it: it adds Stigma draw as a creature-card field, Dead Static as a scene condition, its own Domain and Trait catalogs, and one explicit override — Strain does not recover on its own there. Every other mechanic is read from the base set.

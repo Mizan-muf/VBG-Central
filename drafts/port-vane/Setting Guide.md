@@ -38,7 +38,7 @@ People stay because leaving means the Out-Zones with no walls and no supply line
 
 - **Salt-fog and rain.** Coastal fronts trap exhaust and ozone at street level. Sightlines drop under 50 yards.
 - **Autumn nor'easters,** September to December, push seawater up the storm drains into Ring 2. Fights happen knee-deep in freezing contaminated water.
-- **Static corridors.** Iron-rich bluffs trap and re-reflect Dead Static from frequent nearby Ruptures, leaving pockets that stay unreliable long after the tear that caused them closed. Phones drop, radios loop feedback. **Mechanically:** a static corridor opens its scene with the Noise Clock already at 4, so Dead Static applies from the first cycle ([Domains](Domains.md) §2).
+- **Static corridors.** Iron-rich bluffs trap and re-reflect Dead Static from frequent nearby Ruptures, leaving pockets that stay unreliable long after the tear that caused them closed. Phones drop, radios loop feedback. **Mechanically:** a static corridor is permanently under Dead Static, and the DM declares it in the opening scene post ([Domains](Domains.md) §2).
 
 ## 3. Ruptures and incursions
 
@@ -63,14 +63,13 @@ Handled less like a heroic standoff and more like a chemical spill crossed with 
 3. **Street combat.** Crews move in behind lead-shielded barricades. Collateral damage is a tax write-off.
 4. **The meat market.** Within minutes of a kill, Salvage trucks roll into the cordon. Technicians strip horns, glands, and marrow before the carcass dissolves or the Marshals cordon the site as evidence.
 
-### Loudness
+### What the Carrion come for
 
-Carrion hunt active Domain use. Every Domain therefore carries a **loudness** — how far its use carries and how hard it pulls.
+Carrion above Tier I hunt active Domain use. A fleeing civilian is food; a Cleaver igniting an ability is irresistible, and they will go through a wall to reach one.
 
-- **Loud** Domains hit harder and summon worse. Kinetic bursts, fire, lightning.
-- **Quiet** Domains are weaker but let you work unseen. Perception, blood, decay, sound.
+**This costs the Domain user nothing.** It is written on the creature's card as **Stigma draw**, and it means the creature changes target ([Domains](Domains.md) §2). Which cuts both ways: it is how an incursion goes wrong, and it is the only reliable way to pull a Carapace-Render off a crowd. In Port Vane, the person with the fire is the person who can decide to be the one it wants.
 
-This is the setting's main brake on ability spam and the primary axis separating one Domain from another. The catalog, and the way loudness feeds VBG's Noise Clock, are in [Domains](Domains.md).
+**What actually refills a Domain user is a corpse.** Strain does not come back on its own here — only refined Carrion tissue or raw Carrion tissue does ([Domains](Domains.md) §5). That single fact is most of the city: it is why the Ledger holds the Exchange, why Salvage trails every crew, why a Stray eats what they kill, and why nobody walks into the Sinks without counting doses first.
 
 ## 4. Lexicon
 
@@ -80,14 +79,14 @@ This is the setting's main brake on ability spam and the primary axis separating
 | **Stigma / Domain** | An invasive metaphysical anomaly. Using it strains body and mind, and calls Carrion. |
 | **Stray** | Anyone unaffiliated — unregistered, unsponsored, unprotected. A status, not a group. |
 | **Chartered Hand / Cleaver** | A licensed Domain user, permitted to kill inside designated containment zones. Within the Ledger, the corresponding rank is Chartered Contractor. |
-| **The Sanction** | The licence itself: legal exemption from manslaughter law, purchased at ruinous interest. |
+| **The Sanction** | The licence itself: legal exemption from manslaughter law inside a containment zone, kept current by working — see [Domains](Domains.md) §4. |
 | **Carrion / Spawn** | The creatures that come through a Rupture, collectively. Graded in tiers — see [Carrion](Carrion.md). |
 | **Incursion** | A Rupture opening and what comes out of it. |
 | **Rupture** | The tear itself. |
 | **Cairn** | Infrastructure a Spawn has fused with, opening permanent secondary tears. |
-| **Dead Static** | Electromagnetic interference preceding or surrounding Carrion activity. Applies at Noise Clock 4+ — see [Domains](Domains.md) §2. |
-| **Burnout** | Domain overuse tearing the user apart; deliberately induced by the Cult. A 0–4 track — see [Domains](Domains.md) §4. |
-| **Stabiliser** | The drug that suppresses burnout. Refined from Carrion tissue. The thing everyone is in debt for. One dose clears 1 Burnout — see [Domains](Domains.md) §4–§5. |
+| **Dead Static** | Electromagnetic interference preceding or surrounding Carrion activity. A scene condition the DM declares — see [Domains](Domains.md) §2. |
+| **Stabiliser** | Refined Carrion tissue, and the only manufactured thing that puts Strain back. One dose restores 2 Strain — see [Domains](Domains.md) §5. |
+| **Red stabiliser** | The rare grade. Restores nothing alone; taken with a stabiliser it restores all Strain, and in downtime it removes an Injury. |
 
 ## 5. The Bleed-Belt
 
@@ -109,7 +108,7 @@ Officially Interstate Containment Corridor 95. On the street, **the Dead Arterie
 
 **Waypoints:** **Toll Plaza Bravo** (Mile 58) — a concrete toll plaza turned fortress, held by rogue ex-cops and deserter Cleavers charging tolls in fuel, canned food, and shells. **The Overpass Cairn** (Mile 14). **The Iron Boneyard** (Mile 32) — four miles of derailed freight hollowed into a Cult underground and ambush staging ground.
 
-**Running it.** Each route is a **Transition Scene** ([Player Rulebook](../vbg-2.2/Player%20Rulebook.md) §4): one to three legs, one obstacle and one roll each, with a Failure turning a leg into an ordinary threat scene. The Iron Line is one leg and expensive; the Low-Road is three and cheap. Rations are required past the first leg, and arriving at a waypoint without pursuit starts its Noise Clock one lower.
+**Running it.** Each route is a **Transition Scene** ([Player Rulebook](../vbg-2.2/Player%20Rulebook.md) §4): one to three legs, one obstacle and one roll each, with a Failure turning a leg into an ordinary threat scene. The Iron Line is one leg and expensive; the Low-Road is three and cheap. Rations are required past the first leg, and nobody sets out along the Bleed-Belt without counting their doses first.
 
 > **Later-campaign content.** A separate travel campaign in miniature. Nothing here needs resolving to start play in Port Vane.
 

@@ -290,7 +290,7 @@ Each area runs a **Noise Clock from 0 to 6**. The GM states it in every scene po
 
 **Decay:** −1 per cycle in which nothing above Silent occurs, and −1 on leaving the area for a new one without pursuit. It never drops below 0, and leaving and re-entering repeatedly does not farm reductions.
 
-**One clock per scene.** A setting module may add its own noise *triggers* — a calibre table, a loudness rating on an ability — but it never runs a second clock alongside this one.
+**One clock per scene.** A setting module may add its own noise *triggers* — a calibre table, a rating on a piece of local equipment — but it never runs a second clock alongside this one.
 
 ### Moving unseen
 

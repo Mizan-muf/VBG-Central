@@ -69,7 +69,7 @@ Settled subsequently in §2c: **D3**, **D5a**, **Q14**, **Q15**, **Q16**. Still 
 
 A second audit found that 2.2 had **no mechanics for sound, sight, detection, cover, or engagement at all**, despite the rules referring to all five. Stealth was one word in a TN table. The missed-post default — "their character takes cover" — pointed at a term the ruleset never defined. Meanwhile the sibling VBG-Z module had shipped a working 0–6 Noise Clock engine that 2.2 dropped on the split.
 
-This was the load-bearing gap: Port Vane's entire premise is that Carrion hunt by noise, and there was nothing underneath it.
+This was the load-bearing gap: the ruleset repeatedly told players to take cover, move unseen, and avoid notice, and defined none of it.
 
 | Gap | Decision | Where it now lives |
 |---|---|---|
@@ -83,9 +83,9 @@ This was the load-bearing gap: Port Vane's entire premise is that Carrion hunt b
 | **No assist rule**, though helping was referenced | Spend a Major Action to give another character's roll +1. One assist per roll, no stacking. | Player Rulebook §4 |
 | **Creature cards could not answer "does the dark help?"** | **Senses** is now a required card field, with what the creature cannot perceive stated. Cards also carry the noise they make and their starting awareness. | Creature Blueprint §3 |
 | **Items had no noise** | Every item entry carries a noise rating. Firearms are Loud; blades and bows are Silent; a suppressed weapon and a hooded lamp are the Rare answers. | Item Glossary §1, §3, §6 |
-| **One clock per module** | The track, milestones, and decay belong to the Player Rulebook. Modules add **triggers** only — VBG-Z by calibre, Port Vane by Domain loudness — so a scene runs one clock, not two. | Player Rulebook §4 |
+| **One clock per module** | The track, milestones, and decay belong to the Player Rulebook. A module may add **triggers** only — VBG-Z by calibre, for instance — so a scene runs one clock, not two. | Player Rulebook §4 |
 
-**Consequence for Port Vane.** Its loudness axis now feeds the shared clock rather than a private one, which closes a hole nobody had noticed: a shotgun is Loud too. Gunfire fills the clock exactly as fast as a Domain flare, so the Ledger's crews are the noisiest thing in any district they enter — and the Cult's claim that Stigma is what draws the Carrion turns out to be only partly true. That is a setting result that fell out of fixing the mechanics, and it is worth keeping.
+> **Superseded in part, 2026-09-24.** This section originally bound Port Vane's Domain loudness onto the shared clock. That module has since removed loudness entirely — abilities cost Strain and nothing else — so the clock is driven by weapons, impacts, and shouting, and Domains do not tick it. The perception layer itself is unchanged and remains base-rules material; only the Port Vane trigger is gone. See that module's [Open Questions](../port-vane/Open%20Questions.md).
 
 ## 2c. Decisions settled 2026-09-24 — the carry-through pass
 
@@ -119,7 +119,7 @@ A recorded decision that is not in the rules text is not a rule. This pass wrote
 | 2026-09-20 | Split the legacy single-file 2.2 draft into this folder. No mechanical decisions were made during the editorial move. |
 | 2026-09-20 | Editorial pass for distribution: unified status blocks, section numbering, and navigation across all six files; consolidated terminology into Player Rulebook §1; gave Strain Transfer its own numbered procedure; added a worked example character and a full worked cycle; standardized hazard timing wording to *cycle*, matching the definition already given for ongoing hazards. No rule, number, or outcome changed. |
 | 2026-09-23 | Reviewed the whole set. Six new candidate items (Q25–Q30) recorded in `docs/revision-notes/OPEN_QUESTIONS.md`, one of them blocking. None is promoted here yet, so the pending list below is unchanged. No rule, number, or outcome changed. |
-| 2026-09-24 | **Second pass: built the missing perception layer.** 2.2 had no rules for sound, sight, detection, cover, or engagement, while referring to all five, and had dropped VBG-Z's Noise Clock on the document split. Added engagement, cover, awareness states, light, a 0–6 Noise Clock, moving unseen, pursuit, and assist to Player Rulebook §4; a required **Senses** field to creature cards; noise ratings to every item. Port Vane's loudness was rebound onto the shared clock. See §2b. |
+| 2026-09-24 | **Second pass: built the missing perception layer.** 2.2 had no rules for sound, sight, detection, cover, or engagement, while referring to all five, and had dropped VBG-Z's Noise Clock on the document split. Added engagement, cover, awareness states, light, a 0–6 Noise Clock, moving unseen, pursuit, and assist to Player Rulebook §4; a required **Senses** field to creature cards; noise ratings to every item. See §2b. |
 | 2026-09-24 | **Settled every blocking item and D1, D2, D4, and D5 in part.** Damage is fixed at 1 permanently; Downed, injury, rescue, and death were defined; the cycle gained a resolution order, a conditional-response rule, and a threat-answering rule; Escape gained a procedure. Twenty-two lettered and numbered items closed in §2a. D3 and Transition Scene remain open. This is a substantial mechanical change and supersedes any table ruling made under the previous gaps. |
 | 2026-09-24 | **Carry-through pass.** The rulings above had been recorded but never written into the documents: the Player Rulebook was still at its 2026-09-20 text and the Item Glossary was still a checklist. Both are now rewritten to match this log, the GM Guide gained Domain approval and PP guidance and was renumbered, and D3, D5a, Q14, Q15, and Q16 were settled. **Nothing in VBG 2.2 is pending.** See §2c. |
 

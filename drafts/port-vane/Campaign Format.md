@@ -74,7 +74,7 @@ Because the Ledger is a vertical monopoly, divided-loyalty stories also happen *
 
 ### Leaving
 
-A character may renounce or lose every membership and return to being a Stray. Nobody in Port Vane leaves cleanly. The Ledger keeps the balance owed; the Marshals keep the file; the Cult keeps visiting.
+A character may renounce or lose every membership and return to being a Stray. Nobody in Port Vane leaves cleanly. The Ledger revokes the Sanction and stops refining for you; the Marshals keep the file; the Cult keeps visiting.
 
 ## 4. Scenes
 
@@ -84,13 +84,13 @@ A scene is any contained situation with shared stakes — VBG owns what happens 
 |---|---|
 | Incursion, contract, open violence | With a DM |
 | Negotiation, faction politics, interrogation | Either |
-| Downtime, relationships, planning, debt | Self-run |
+| Downtime, relationships, planning, resupply | Self-run |
 
 Threat scenes use the VBG resolution cycle. **Non-threat play is deliberately freeform** — ordinary resolution, no cycle, no action economy ([Player Rulebook](../vbg-2.2/Player%20Rulebook.md) §4). That is what makes self-run scenes workable: there is no procedure a DM has to be present to run.
 
 Long travel is the exception and uses a **Transition Scene**. The [Bleed-Belt](Setting%20Guide.md) §5 is built out of them.
 
-The Noise Clock keeps running underneath all of it. A self-run scene in a static corridor is still a scene at clock 4.
+Scene conditions keep running underneath all of it. A self-run scene in a static corridor is still a scene with no working phone in it.
 
 ## 5. Standing
 

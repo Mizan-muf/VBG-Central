@@ -13,7 +13,7 @@ Three bodies hold power in Port Vane, and **every one of them is playable**. So 
 |---|---|---|
 | **The Iron Ledger** | To keep the corpse trade running, because it is the only thing standing between this city and an unmanaged incursion. | It is the only organisation that actually kills Carrion at scale, and it pays. |
 | **The District Marshals** | Civilians out, alive, at no profit to anyone. | Somebody has to, and nobody else is going to. |
-| **The Rupture Cult** | The stabiliser monopoly broken, because a leash is still a leash however well it is administered. | They are not wrong about the leash. |
+| **The Rupture Cult** | The Ledger's two monopolies broken — the licence and the refinery — because a leash is still a leash however well it is administered. | They are not wrong about the leash, and their supply line is free. |
 | **Strays** | To be left alone and stay alive. | Everything above has a price attached. |
 
 **The Carrion are the campaign's threat, and the only one** ([Carrion](Carrion.md) §1). They cannot be negotiated with, bought off, or read sympathetically, and that is precisely what frees every human body in this city to be a place a player might reasonably stand.
@@ -36,7 +36,7 @@ It is not a waiting room, and a character who never joins anything has not faile
 
 | What you give up | What you get |
 |---|---|
-| A supply line. Stabilisers are grey-market or nothing. | No obligations, and no opposed demands to be caught between. |
+| A supply line. Stabilisers are scrounged, stolen, or cut raw off a corpse you killed yourself. | No obligations, no opposed demands, and no licence anyone can revoke. |
 | Institutional backing when something goes wrong. | Access to every room. Nobody's enemy by default, which the affiliated never are. |
 | A rank ladder and the standing that comes with it. | The only position in the city from which all three bodies can be told the truth. |
 
@@ -48,7 +48,7 @@ Reputation among the unaffiliated, not a rank ladder. Nobody confers it.
 
 | Standing | Meaning |
 |---|---|
-| **Bleeder** (Green-Marks) | Newly awakened, freshly defaulted, or recently run. Disorganised and prone to burnout. Kept at arm's length — unmonitored Domain use attracts Carrion and attention. |
+| **Bleeder** (Green-Marks) | Newly awakened, freshly defaulted, or recently run. Disorganised and prone to running dry in the worst place. Kept at arm's length — unmonitored Domain use attracts Carrion and attention. |
 | **Warden** (Holdout) | Has lasted long enough on bootleg stabilisers to be trusted. Protects specific blocks, orphanages, squats. The backbone of the underground. |
 | **Ghost** (Old Blood) | Years off-grid without mutating, dying, or being taken. Coordinates safehouses and brokers bulk stabiliser shipments. Names fiercely guarded. |
 
@@ -63,11 +63,15 @@ The centralised monopoly on sanctioned violence and the corpse trade. It takes t
 
 **The sympathetic reading, which a DM should take seriously:** the Ledger is the only body in Port Vane that reliably kills Tier II and above. Every person in this city who did not die in an incursion owes that partly to a contract someone bid on. The monopoly is monstrous *and* it is load-bearing, and the people inside it mostly know both things.
 
-### The debt pipeline
+### The two monopolies
 
-A powerful Domain is not a blessing, it is an expensive liability. Active use ruins gear, burns the body, and attracts predators. The Ledger sells the stabilisers, medicine, and weaponry needed to survive that — on credit, at interest. Even its strongest operators are permanently in debt to it.
+The Ledger holds the city by two things, and neither of them is money.
 
-**This is the engine the campaign runs on.** Every contract taken is a payment against a balance that does not clear. The mechanics of that balance are Burnout and stabiliser doses ([Domains](Domains.md) §4–§5) paid for in bounty bands ([Carrion](Carrion.md) §4).
+**It grants the licence.** The Sanction is legal permission to use a Domain where it matters, and it lapses unless you keep working ([Domains](Domains.md) §4). Nobody owes the Ledger a balance. They owe it attendance.
+
+**It refines every dose.** Strain does not come back on its own in Port Vane — only a stabiliser or raw Carrion tissue puts it back ([Domains](Domains.md) §5), and Salvage refines every stabiliser in the city. A Domain user who stops working does not go into debt. They run out, and then they are a person with an ability they cannot afford to use.
+
+**This is the engine the campaign runs on**, and it needs no bookkeeping at all: permission that expires, and a supply that has to be cut out of something.
 
 ### Divisions
 
@@ -85,7 +89,7 @@ Because the Ledger is a monopoly, a great many divided-loyalty stories happen in
 | Level | What it is |
 |---|---|
 | **The Exchange Floor** (upstairs) | Neon contract boards: bounties, casualty estimates, payout ratios, salvage rates. Brokers haggle territorial rights while dispatchers shout over sirens. |
-| **The Lock & Quench** (downstairs) | Part armoury, part black-market clinic. Hunters patch wounds, reload anti-anomaly munitions, and take stabiliser injections against Burnout. |
+| **The Lock & Quench** (downstairs) | Part armoury, part black-market clinic. Hunters patch wounds, reload anti-anomaly munitions, and draw the stabiliser doses their next contract is expected to pay for. |
 | **The Cellar** (containment) | Captured Strays and half-dead Carrion in dampening cages — awaiting extraction for parts, or reconditioning into indentured strike teams. |
 
 ## 4. The District Marshals — "The Lead-Heads"
@@ -107,15 +111,15 @@ The decaying remnants of municipal police and emergency services. Starved of fun
 
 An accelerationist network of Domain addicts, failed hunters, and street mystics who hold that Incursions are purges and that human bodies were meant to change.
 
-**Their operational aim is the Ledger.** Stabilisers are leashes. The Ledger sells leashes. Therefore the monopoly must break.
+**Their operational aim is the Ledger.** Permission is a leash. Refinery is a leash. The Ledger holds both. Therefore the monopoly must break.
 
-**Take the argument seriously.** The Cult's core claim is true: the people keeping this city alive are permanently indebted to the firm selling them the medicine, and that arrangement was designed. Everything objectionable about the Cult follows from what they decided to *do* about a correct observation. A player who joins them is not playing a villain; they are playing someone who ran out of patience with a system nobody else will name.
+**Take the argument seriously — it is mechanically correct.** Strain comes back from refined Carrion tissue, and it comes back from raw Carrion tissue ([Domains](Domains.md) §5). Those are the same substance. One is Restricted, licensed, and issued by the firm that decides whether you may use your Domain at all; the other is lying on the floor of every incursion in the city. The Cult's entire recruitment pitch is that you have been paying an organisation for something you could pick up, and **that pitch is true**. A player who joins them is not playing a villain. They are playing someone who did the arithmetic.
 
-**Where they are wrong.** They believe Stigma is what draws the Carrion, and therefore that the Ledger's crews are hypocrites for using Domains at all. The Noise Clock says otherwise: gunfire fills it exactly as fast as a Domain flare ([Domains](Domains.md) §2). A Cult member who works this out has a genuine crisis on their hands, and it is one of the better character arcs available in this setting.
+**Where the argument runs out.** It does not follow from *the food is free* that you should open containment walls, and the Cult gets there anyway. What they actually want is not a fairer supply; it is for the city to stop resisting what is happening to it.
 
-**Methods.** Recruit from Strays on the brink of debt collapse, promising transcendence in exchange for abandoning stabilisers. Hunt Cleavers for their implants. Sabotage containment walls and release caged Spawns. Bait wild Carrion into crowded stations to harvest the panic. The last two are why the other three bodies want them stopped, and no sympathetic reading makes them not worth stopping.
+**Methods.** Recruit Strays who have run out and cannot resupply. Hunt Cleavers for their implants. Sabotage containment walls and release caged Spawns. Bait wild Carrion into crowded stations to harvest the panic. The last two are why the other three bodies want them stopped, and no sympathetic reading makes them not worth stopping.
 
-**Combat philosophy.** Suicidal blitzes. They deliberately Overreach to force Burnout, spiking what they can do while their bodies come apart ([Domains](Domains.md) §4).
+**Combat philosophy.** Suicidal blitzes — and they can afford to be, because they resupply off the bodies. A Cult cell will spend every point of Strain it has in the opening cycles of a fight on the understanding that the fight itself is the resupply. Crews that have not worked this out find it uncanny.
 
 **2013 kit.** Mini-DV tapes passed hand to hand, hidden boards over Tor on dial-up, pressure-cooker bombs packed with monster gore, amateur tattoo rigs using beast-blood ink.
 
@@ -143,7 +147,9 @@ Low to high. Street names in brackets. Ranks are **fictional standing** (P4, set
 | **District Marshals** (6) | Probationary Patrolman (Kevlar Target) → Patrol Officer (Lead-Head) → Detective (Coroner-Cop) → Sergeant (Iron-Shield) → Precinct Captain (Desk-Warden) → Chief of Marshals (Old Brass) |
 | **Rupture Cult** (4) | The Tethered (Unmarked) → The Smoldering (Ash-Eaters) → The Resonant (Marrow-Forged) → The Void-Vessel (Apostles) |
 
-Cult ranks are not appointed. They mark how much human physiology the member has shed: still human, first induced Burnout, permanently fused with monster tissue, and finally able to walk into a Rupture without disintegrating. The last of these is adjacent to the Burnout threshold in [Domains](Domains.md) §4 — and a player is the only person who may put their character across it.
+Cult ranks are not appointed. They mark how much human physiology the member has shed: still human, has begun eating what they kill, visibly fused with monster tissue, and finally able to walk into a Rupture without disintegrating.
+
+**No track measures this.** There is no counter that fills up and no threshold a character crosses by accumulation. How far a character has gone is fiction the DM develops with that player over time, and **a player's character never crosses further than that player takes them**.
 
 ---
 

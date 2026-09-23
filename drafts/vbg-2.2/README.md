@@ -50,7 +50,7 @@ Link to the owning document rather than copying a shared rule into another file.
 
 VBG 2.2 is a draft revision of the base game. It does not change published base rules v1.4.2 or the VBG-Z survival-horror module, and it does not imply compatibility with either. The legacy 2.2 draft files in the parent folder are relocation notices; use this folder for all reading and edits.
 
-**Setting modules scaffold on this set.** A module supplies fiction, catalogs, gear entries, and noise triggers in its own document set, and links here for every mechanic. It never restates a rule, never runs a second clock, and never overrides an owner named in §3. [Port Vane](../port-vane/README.md) is the worked example.
+**Setting modules scaffold on this set.** A module supplies fiction, catalogs, and gear entries in its own document set, and links here for every mechanic. It never restates a rule, never runs a second clock, and states any override of an owner named in §3 explicitly, in full, in one place. [Port Vane](../port-vane/README.md) is the worked example.
 
 ---
 

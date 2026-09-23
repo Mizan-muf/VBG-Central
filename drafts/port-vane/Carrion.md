@@ -14,10 +14,10 @@ They are not an invading army. No generals, no diplomacy, no ideology. Metaphysi
 | Instinct | Effect |
 |---|---|
 | **Hunger for biomass** | Their cells decay under Earth atmospheric physics. To avoid dissolving they must constantly consume organic matter and stitch it into their own anatomy. |
-| **Addiction to Stigma** | Active Domain use is a beacon. A fleeing civilian is food; a Cleaver igniting an ability is irresistible. Consuming a Domain user temporarily grants fragments of that power. |
+| **Addiction to Stigma** | Active Domain use is a beacon. A fleeing civilian is food; a Cleaver igniting an ability is irresistible. Consuming a Domain user temporarily grants fragments of that power. **Mechanically this is a card field, not a player cost** — see [Domains](Domains.md) §2. |
 | **Hiving** | A Spawn left alive for days anchors to infrastructure — subway tunnel, ventilation shaft, condemned factory — fusing flesh with rebar and wiring into a **Cairn**, which opens permanent secondary tears. |
 
-The second instinct is the setting's central tactical fact. Using your Domain solves the problem in front of you and calls a worse one.
+The second instinct is the setting's central tactical fact, and it cuts both ways. Using your Domain calls the worst thing in the district toward you — which is a disaster when you did not mean to, and the single most useful thing a Domain user can do when they did. Pulling a Carapace-Render off a crowd is a job, and only one person on the crew can do it.
 
 ## 2. Tiers
 
@@ -38,7 +38,7 @@ The second instinct is the setting's central tactical fact. Using your Domain so
 
 **Elimination.** Routine — one hit each, as with anything at Minor tier. Buckshot, a focused kinetic burst, or pressurised lye ruptures their fluid cavities. The danger is never one Shiverer; it is that there are nine and you have one Major Action per cycle.
 
-**Salvage.** Bottom-barrel. Dissolved sludge is vacuumed up and refined into cut-rate "Grey" stabilisers sold to desperate Strays.
+**Salvage.** Bottom-barrel, and the reason Tier I is worth clearing at all: sludge is vacuumed up and refined into ordinary stabilisers. A nest is a week of Strain for somebody. Eat one raw and it is worth nothing to anyone afterwards.
 
 ### Tier II — Carapace-Renders
 
@@ -60,7 +60,7 @@ The second instinct is the setting's central tactical fact. Using your Domain so
 
 **Senses.** It does not hunt; it occupies. Anything inside its footprint is detected, and cover and darkness are irrelevant at that scale. Getting out of the footprint is the only answer.
 
-**Dead Static field.** Cripples technology within roughly 800 yards — mechanically, its presence holds the area's Noise Clock at 4 or higher for as long as it is there, so Dead Static never lifts during the engagement. Phones brick, car batteries rupture, radio screams feedback, CRTs ignite into electrical fires.
+**Dead Static field.** Cripples technology within roughly 800 yards. **Mechanically:** the DM declares Dead Static for the whole engagement, for as long as the Titan is present ([Domains](Domains.md) §2). It never lifts while the fight is on. Phones brick, car batteries rupture, radio screams feedback, CRTs ignite into electrical fires.
 
 **Behaviour.** A siege, not a fight. Acts as mobile incubator and tactical anchor, continuously spawning Tier I from pustules along its flanks while firing barrages of toxic bile and crushed masonry.
 
@@ -80,7 +80,7 @@ The second instinct is the setting's central tactical fact. Using your Domain so
 
 **Behaviour.** Does not hunger for biomass or rush toward Domain flares. Observes, converses, calculates. Understands currency, corporate hierarchy, and human psychology better than the people running the city.
 
-**The threat.** No Ledger bounty listing exists, because Ledger leadership refuses to admit they do. Whispers among dying Strays suggest several already walk the upper rings — sitting on boards, funding the firms that synthesise stabilisers, timing Ruptures. Not destroying the city. Domesticating it, into a managed pen for harvesting debt-ridden Stigma at scale.
+**The threat.** No Ledger bounty listing exists, because Ledger leadership refuses to admit they do. Whispers among dying Strays suggest several already walk the upper rings — sitting on boards, funding the firms that synthesise stabilisers, timing Ruptures. Not destroying the city. Domesticating it, into a managed pen for harvesting licensed Stigma at scale.
 
 #### 2.4 How to actually use them
 
@@ -115,18 +115,21 @@ Source material quotes dollars: roughly $150–300 for a Tier I, $25,000–80,00
 
 What a bounty actually buys is expressed in the [VBG Item Glossary](../vbg-2.2/Item%20Glossary.md) §2 value bands, which is the currency this game has.
 
-| Kill | Bounty band | What clearing it buys |
+| Kill | Bounty band | What it buys |
 |---|---|---|
-| **Tier I**, a handful | Petty | Common items, a few material units, a week's stabilisers. Does not move a Ledger balance. |
-| **Tier I**, a nest cleared, or **Tier II**, shared | Standing | One **Restricted** item, or a month of stabilisers, or a visible payment against a balance. |
-| **Tier II**, solo or lead share | Substantial | Several Restricted items, or one **Rare** one at a bad rate, or a balance meaningfully reduced. |
-| **Tier III**, any share at all | Career | A **Rare** item outright, a rank, a debt cleared — and the attention that comes with having been there. |
+| **Tier I**, a handful | Petty | Common items, a few material units, **one stabiliser**. |
+| **Tier I**, a nest cleared, or **Tier II**, shared | Standing | One **Restricted** item, or **three stabilisers**, or a Sanction renewed without anyone asking questions. |
+| **Tier II**, solo or lead share | Substantial | Several Restricted items, or a **Rare** one at a bad rate, or a full resupply for a crew. |
+| **Tier III**, any share at all | Career | A **Rare** item outright — a red stabiliser, a suppressed weapon — or a rank, and the attention that comes with having been there. |
 
-Three rules keep this honest:
+Four rules keep this honest:
 
-- **Salvage is where the value is, not the kill.** A corpse the Marshals cordon as evidence, or one that dissolved before the trucks arrived, pays nothing. Getting the body out is usually the actual scene.
+- **Salvage is where the value is, not the kill.** A corpse the Marshals cordon as evidence, or one that dissolved before the trucks arrived, pays nothing. Getting the body out is usually the actual scene, and it needs a salvage kit ([Domains](Domains.md) §6).
 - **A band is not money and does not make change.** A character cannot bank two Standing bounties into a Career one. Bands describe what a payment reaches, and Rare things are obtained in play, never simply bought.
-- **The Ledger takes its cut first.** For a member, most of a bounty is a payment against a balance, not income. That is the pipeline working exactly as designed.
+- **Anything eaten is not sold.** A character who consumes raw tissue to get Strain back drops the corpse one band ([Domains](Domains.md) §5). That is the real trade in this economy: the body refills you now, or it refills you later and better after somebody refines it.
+- **A bounty is what keeps a Sanction current.** For a licensed Cleaver, the payment matters less than being on the crew list at all ([Domains](Domains.md) §4).
+
+**Why this is the engine.** Stabilisers are the only manufactured source of Strain in Port Vane, and every one of them was cut out of something that came through a tear. That is the whole economy, stated once: you hunt Carrion to get the thing that lets you hunt Carrion, and the Iron Ledger refines all of it.
 
 ---
 

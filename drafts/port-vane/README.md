@@ -20,7 +20,7 @@ Two things to know before reading further. **Every faction is playable and none 
 | 1 | [Campaign Format](Campaign%20Format.md) | Understand how play works before anything else. |
 | 2 | [Setting Guide](Setting%20Guide.md) | Learn the world, the city, and how incursions happen. |
 | 3 | [Factions](Factions.md) | Pick memberships and understand who holds what. |
-| 4 | [Domains](Domains.md) | Choose a Domain, and learn what loudness and Burnout cost you. |
+| 4 | [Domains](Domains.md) | Choose a Domain, and learn where Strain comes from in this city. |
 | 5 | [Traits](Traits.md) | Choose a Major and Minor Trait, or write your own. |
 | 6 | [Carrion](Carrion.md) | Run the monsters. |
 | 7 | [Open Questions](Open%20Questions.md) | Check what is unresolved before ruling on it. |
@@ -35,7 +35,7 @@ A player needs 1–5. A DM needs all of them.
 | Campaign Format | How this campaign is structured, who may decide what, and the membership rules. |
 | Setting Guide | World facts, geography, terminology. |
 | Factions | Faction composition, aims, tensions, and ranks. |
-| Domains | The Domain catalog, loudness, Dead Static, Burnout, and setting gear. |
+| Domains | The Domain catalog, Stigma draw, Dead Static, the Sanction, Strain recovery, and setting gear. |
 | Traits | The Major and Minor Trait catalog for this setting. |
 | Carrion | Creature types and behaviour. Stat values remain VBG's to own. |
 | Open Questions | Unresolved items. A pending entry is not a rule. |
@@ -44,8 +44,9 @@ A player needs 1–5. A DM needs all of them.
 
 | Addition | Socket it plugs into |
 |---|---|
-| **Domain loudness** | A noise trigger feeding VBG's shared Noise Clock. Not a second clock. |
-| **Burnout**, a 0–4 track | An added track and one added way to spend Strain (Overreach). Nothing else about Strain changes. |
+| **Stigma draw** | A field on a creature card. A DM-side targeting rule; it costs the player nothing. |
+| **Dead Static** | A scene condition the DM declares, like light or cover. |
+| **Strain recovery** | The one **override**: rest restores no Strain here. Only a stabiliser or raw Carrion tissue does. |
 | **Catalogs and gear entries** | Domains, Traits, and items written in the Item Glossary's own format and bands. |
 
 Everything else — resolution, damage, the cycle, harm, inventory, progression — is read from [VBG 2.2](../vbg-2.2/README.md) unchanged.
