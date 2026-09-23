@@ -8,6 +8,7 @@ VBG is an asynchronous, fiction-first tabletop RPG. This repository preserves th
 |---|---|---|
 | [VBG 2.2 document set](drafts/vbg-2.2/README.md) — player rules, GM guidance, creature blueprint, item glossary, and decisions | 2.2 | Working draft; complete, nothing pending |
 | [Port Vane](drafts/port-vane/README.md) — setting module for VBG 2.2: a rotting fortress-city in 2013 where Domains are a licensed industry | — | Working draft; playable |
+| [Combat Module](Combat%20Module/Combat%20Module.md) — optional add-on: a separate Charge resource for abilities, and a battle-map movement layer | v0.1 | Working draft; **untested** |
 | [Base rules](base%20rules/Very%20Basic%20RPG%20%28VBG%29.md) — the core game | 1.4.2 | Published baseline; unedited |
 | [Base traits and abilities](base%20rules/) — major traits, minor traits, abilities, and creature blueprint | 1.4.2 | Published baseline; unedited |
 | [VBG-Z](Zombie%20Module/) — survival-horror module | 2.0 | Published module; unedited |
