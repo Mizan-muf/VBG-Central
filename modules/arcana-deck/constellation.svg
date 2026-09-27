@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="540" viewBox="0 0 600 540" role="img" aria-labelledby="title desc">
+  <title id="title">Proposed card constellation</title>
+  <desc id="desc">A hexagram with Project, Ward, Shift, Bind, Shape, and Veil at its six points. Formless occupies the center. Every type has Minor, Standard, and Major ranks. Lines show the layout, not combo restrictions.</desc>
+  <rect width="600" height="540" rx="20" fill="#111827"/>
+  <g fill="none" stroke="#a78bfa" stroke-width="2.5" opacity="0.7">
+    <path d="M300 70 L475 170 L475 370 L300 470 L125 370 L125 170 Z"/>
+    <path d="M300 70 L475 370 L125 370 Z"/>
+    <path d="M300 470 L125 170 L475 170 Z"/>
+  </g>
+  <g fill="#202d42" stroke="#c4b5fd" stroke-width="1.5">
+    <rect x="242" y="44" width="116" height="52" rx="9"/>
+    <rect x="417" y="144" width="116" height="52" rx="9"/>
+    <rect x="417" y="344" width="116" height="52" rx="9"/>
+    <rect x="242" y="444" width="116" height="52" rx="9"/>
+    <rect x="67" y="344" width="116" height="52" rx="9"/>
+    <rect x="67" y="144" width="116" height="52" rx="9"/>
+    <circle cx="300" cy="270" r="65" fill="#382953" stroke="#e9d5ff"/>
+  </g>
+  <g fill="#f3f4f6" font-family="system-ui, sans-serif" font-size="18" text-anchor="middle">
+    <text x="300" y="76">Project</text>
+    <text x="475" y="176">Ward</text>
+    <text x="475" y="376">Shift</text>
+    <text x="300" y="476">Bind</text>
+    <text x="125" y="376">Shape</text>
+    <text x="125" y="176">Veil</text>
+    <text x="300" y="268" font-weight="700">Formless</text>
+    <text x="300" y="291" font-size="12" fill="#ddd6fe">Choose one type</text>
+    <text x="300" y="524" font-size="13" fill="#cbd5e1">Every type: Minor · Standard · Major</text>
+  </g>
+</svg>
