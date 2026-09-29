@@ -1,5 +1,17 @@
 # Release notes
 
+## Domain Combat draft — record formats, 2026-09-29
+
+- Added [seven universal record formats](../modules/domain-combat/templates.md) for Domains, branches, additions, techniques and improvements, quick improvisation declarations, Minor Effects, and an advancement ledger.
+- Standardized Domains and branches around nine core fields, with four Anchor conditions and separate development details. The optional ledger tracks requirements, approval, purchases, and PP balances.
+- These organize existing draft mechanics; unresolved prices and outputs remain explicit. No core rules changed.
+
+## Domain Combat draft — Shadows journey, 2026-09-29
+
+- Added an optional [Shadows player journey](../modules/domain-combat/journeys/shadows.md): eight chapters, five branches, one Anchor addition, and twenty-one new technique proposals.
+- Linked the journey from the Domain Combat module and both starter catalogue representations. Starting techniques remain unchanged.
+- This is an illustrative expansion of the standalone draft, not a core rules change or a playtested progression. PP prices and numerical balance remain unresolved.
+
 ## VBG 2.2 — core promotion, 2026-09-27
 
 VBG 2.2 is now the current core ruleset, rather than a working draft. This release changes organization and status, not gameplay mechanics.

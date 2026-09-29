@@ -1,6 +1,6 @@
 # Very Basic RPG 2.2 — Decision Log
 
-**Status:** current decision record · **Version:** 2.2 · **Revised:** 2026-09-27  
+**Status:** current decision record · **Version:** 2.2 · **Revised:** 2026-09-29<br>
 **Owns:** unresolved rules, editorial status, and the record of changes to this document set.
 
 > A pending decision is not a playable rule — and neither is a settled one that was never written into the document that owns it. §2 is currently empty: every decision this log tracks is written in.
@@ -116,6 +116,8 @@ A recorded decision that is not in the rules text is not a rule. This pass wrote
 
 | Date | Change |
 |---|---|
+| 2026-09-29 | Added [Domain Combat record templates](../modules/domain-combat/templates.md) for abilities and advancement, including a fixed nine-field static Domain record. Documentation of existing standalone draft mechanics only; no core rule or pending decision changed. |
+| 2026-09-29 | Added the optional [Shadows development journey](../modules/domain-combat/journeys/shadows.md) to the standalone Domain Combat draft, with five branch proposals and twenty-one new techniques. This records module documentation only; no VBG 2.2 core rule or pending decision changed. |
 | 2026-09-27 | Promoted VBG 2.2 to the current core in `rules/`; standardized document paths; removed the setting and obsolete relocation notices; retained optional modules and archived earlier rules and plans. No gameplay mechanics changed. |
 | 2026-09-20 | Split the legacy single-file 2.2 draft into this folder. No mechanical decisions were made during the editorial move. |
 | 2026-09-20 | Editorial pass for distribution: unified status blocks, section numbering, and navigation across all six files; consolidated terminology into Player Rulebook §1; gave Strain Transfer its own numbered procedure; added a worked example character and a full worked cycle; standardized hazard timing wording to *cycle*, matching the definition already given for ongoing hazards. No rule, number, or outcome changed. |

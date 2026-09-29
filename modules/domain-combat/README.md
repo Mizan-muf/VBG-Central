@@ -1,100 +1,332 @@
-# Domain Combat — fresh design
+# Domain Combat
 
-**Status:** concept proposal, 2026-09-27. A new system built around player-created techniques. Not an extension of Charge Combat or Arcana Deck. No existing action economy, damage rule, resource values, or scale tiers are assumed. This document establishes a foundation for discussion, not a complete playable ruleset.
+**Status:** standalone draft for discussion. This module keeps Domains and explicitly adopts Arcana Deck's six outer Forms as technique classifications. It does not otherwise inherit Charge Combat or Arcana Deck rules.
 
-## Foundation: powers have working methods
+## Record templates
 
-A Domain defines a medium and the ways a character can influence it. A technique is a repeatable process using that influence to produce a result. Players can discover and improvise processes without buying permission to describe them.
+Use these copyable [universal record formats](templates.md):
 
-Define each Domain through:
+1. [Domains](templates.md#domain)
+2. [Branches](templates.md#branch)
+3. [Domain additions](templates.md#domain-addition)
+4. [Techniques](templates.md#technique) and [improvements](templates.md#technique-improvement)
+5. [Quick improvisation declarations](templates.md#improvised-declaration)
+6. [Minor Effects](templates.md#minor-effect)
+7. [Advancement ledger](templates.md#advancement-ledger)
 
-- **Source:** where its medium comes from; generation and manipulation are separate capabilities.
-- **Operations:** what the user can do to it, such as move, compress, heat, shape, or store.
-- **Control:** where and how the user can influence it—contact, sight, connected material, or another agreed relationship.
-- **Tolerance:** what the user's body can safely withstand. Control does not automatically mean immunity.
+The formats record current permissions, proposed changes, and acquired developments separately. The optional ledger tracks requirements, GM approval, and actual PP awards and spending.
 
-These are fictional capabilities to establish together, not a universal list of selectable powers. An Air user may work through pressure differences; another may only redirect existing currents.
+## Foundation
 
-## Energy, output, and harm
+- **Internal Energy** powers supernatural techniques.
+- **Strain** is remaining bodily capacity. It starts at **5**; at **0, collapse**.
+- Damage that reaches the body and dangerous overexertion reduce Strain.
+- There is no separate HP or wound track.
+- Technique use normally spends Energy using the base costs below. All ongoing Energy costs are recorded and paid in **Energy/min**; the exact rate remains technique-specific until recorded. Energy capacity, recovery, safe output, and overexertion remain undefined.
+- Players make combat rolls; the GM presents threats, circumstances, and consequences.
 
-Proposed resource model:
+## Exchanges
 
-| Concept | Purpose |
+Each exchange follows:
+
+> Present threat → declare actions → clarify risk → player rolls → update situation.
+
+Each character has one **Major Action**, one **Minor Action**, and movement.
+
+| Allowance | Use |
 |---|---|
-| **Reserve** | Finite usable energy. Techniques draw from it; maintaining effects drains it over time. Working name, not settled terminology. |
-| **Throughput** | How much energy the character can safely channel at once. A capacity, not another pool to spend. |
-| **Strain** | Accumulating overload from pushing beyond safe limits. Produces impairment and eventually loss of control or collapse. |
-| **Wounds** | Actual bodily harm, tracked separately from energy and overload. Whether to use HP or injuries remains open. |
+| Major | Attack; demanding technique; committed defence; accumulation; release of a prepared effect. |
+| Minor | Draw equipment; load a simple weapon; light-attention maintenance; simple preparation. |
+| Movement | Reposition as part of the declaration. It does not automatically evade a threat. |
 
-Reserve answers “how long can I keep going?” Throughput answers “how much can I do right now?” Separating them gives accumulation a reason to exist: a slow generator can build a powerful release over time.
+Classify an action by its main demand. If it creates or answers a meaningful threat, requires sustained precision, or commits stored power, it is Major. If it is brief, local, and does not by itself resolve a threat, it is Minor. The GM may require a Major Action when a proposed Minor Action would have Major impact.
 
-**Overexertion has two distinct uses:** forcing more output than safe throughput, or continuing after Reserve is exhausted. Both build Strain. Neither is an unlimited source of energy: a strain ceiling and escalating consequences must be defined before play. Exact conversion rates remain open.
+A coherent Major Action may combine offence and defence when its stated method genuinely does both. An unrelated attack does not answer an incoming threat. No separate free defensive action exists.
 
-## Build a technique from a causal chain
+Players may initiate actions; they do not wait to be attacked. When multiple threats matter, each must be answered by an action, positioning, protection, or an established ongoing effect. Cooperation follows the same principle: each participant declares a contribution and faces the risks created by that contribution.
 
-Write **source → manipulation → delivery → result**. Then establish:
+### Distance bands
 
-| Field | Design question |
+Use the existing fictional distance bands from the [Player Rulebook](../../rules/player-rulebook.md#movement-and-distance), with Self / Touch added for effects confined to the user or direct contact. Describe distances through the scene; this draft adds no numerical measurements.
+
+| Band | Scope |
 |---|---|
-| Setup | What must the user physically do first? |
-| Energy | What is spent starting, sustaining, or releasing it? |
-| Output | How much energy must pass through the user or apparatus at once? |
-| Control | How precise, distant, or complex is the effect? |
-| Requirements | What equipment, posture, movement, medium, and bodily tolerance does it need? |
-| Exposure | What can someone notice, interrupt, evade, or exploit? |
-| Result | What actually happens when it connects or succeeds? |
+| Self / Touch | The user's own body or something in direct physical contact. Specify Self or Touch on the effect. |
+| Melee / Reach | Hand-to-hand distance or within the reach of a held weapon or stated method. Proximity alone does not establish touch. |
+| Close / Room | Across a room, small office, or short corridor. |
+| Far / Hallway | Along a long hallway, street section, or warehouse floor. |
+| Distant / Line of Sight | Across a plaza, between rooftops, or across a similarly broad visible space. State the actual target or extent; visibility alone does not grant unlimited reach. |
 
-A method can improve one of these because it solves a real problem. A pipe guides a projectile; a nozzle concentrates delivery; a storage vessel holds energy. Decorative restrictions do not automatically purchase power.
+Record each technique's delivery range and any separate area or movement distance. An effect reaching Far does not automatically affect everything out to Far. For improvisation, agree on these limits before rolling.
 
-Do not price every adjective. First compare a proposed technique with established examples of similar output, reach, duration, and control demand. Record agreed benchmarks as the system develops.
+An Anchor determines where influence can begin and remain controlled. Delivery may extend beyond it when the method allows: a released projectile can travel beyond a Touch Anchor, but the user cannot continue steering it without an appropriate Anchor and Expression. Record that delivery range separately.
 
-## Three energy behaviours
+Range does not bypass cover, obstacles, or the need for a valid delivery path. Movement must name a destination and respect the route and terrain; these bands do not establish how many bands ordinary movement crosses per exchange. That allowance remains open.
 
-**Burst:** spend energy for one event. The immediate release must fit safe throughput or cause overload. Examples: an air shot, a sudden shove, a flame jet.
+### Resolution
 
-**Flow:** establish an effect and feed it continuously. Reserve drains over time; active flows occupy part of safe throughput. Attention depends on the method: holding a stable weapon coating should demand less attention than steering fire around moving allies. Neither gains automatic extra attacks.
+The outcome categories are:
 
-**Accumulation:** move energy out of Reserve into an actual storage site over time. Storage has a capacity, retention limit, and a release limit. Stored energy is already spent and cannot also fund other techniques. Failed storage loses energy; dangerous failures require a defined fictional cause.
+- **Success:** You accomplish the declared intent.
+- **Success with consequence:** You accomplish it, but the GM applies an established cost, exposure, complication, or reduced control.
+- **Failure:** You do not accomplish it; the threat or a justified consequence advances.
 
-Crucially, a vessel may permit a discharge greater than the user's generation rate. If that discharge must pass through the user's body, bodily throughput still limits it. A separate outlet can bypass that bottleneck only if the apparatus can withstand the release. This makes the construction matter.
+The dice, thresholds, and rule for choosing consequences are not yet defined.
 
-## The user's examples
+## Domains
 
-| Technique | Working method | Useful tradeoff |
+Use the [static Domain format](templates.md#domain), with these fields in order:
+
+- **Name:** The Domain's name.
+- **Origin:** Internal Energy.
+- **Aspect:** What you influence.
+- **Expressions:** Permitted operations, each defined against the Aspect.
+- **Anchor:** Establish, Reach, Maintain, and Break conditions for the connection.
+- **Boundary:** Useful explicit exclusions, or None beyond the stated permissions.
+- **Tolerance:** What the user's body can endure; ordinary unless explicitly changed.
+- **Persistence:** What happens to the effect when control ends.
+- **Mark:** Bodily location, appearance, and reaction when the Anchor engages.
+
+This record describes current permissions. Techniques, acquisition costs, approval status, and advancement history belong in their separate records.
+Starting structure: one Aspect, two Expressions, and one Anchor. Keyword counts limit permissions, not descriptive language. Custom keywords are allowed by agreement.
+
+- Related subjects are not included unless written.
+- Define Expressions relative to the Aspect.
+- Natural consequences need no extra permission, but do not grant further control.
+- State how the Anchor begins, its reach, what maintains it, and what breaks it.
+- Include Boundaries only when useful. They grant no automatic benefit.
+- State whether an effect persists after control ends and what the user's body can tolerate.
+- Absorption does not automatically restore Energy, heal Strain, or copy abilities.
+- Material cannot increase without a generation capability.
+
+### Domain Marks
+
+Domain users bear a bodily mark at the site used to establish their Anchor: palms or fingertips for touch, mouth or throat for breath, eyes for sight, or the relevant skin for bodily contact. For an external Anchor, the mark appears where the user establishes the connection; an object may carry a corresponding mark.
+
+The player and GM choose its appearance. It visibly reacts when the Anchor engages. Additions may change its details, branches may extend its pattern, and a new Anchor may produce a mark at another bodily site. A separate Domain has a distinct mark that may intertwine with others.
+
+Marks express the Domain narratively. They grant no extra permissions and are not an additional weak point. Covering a mark does not disable the Domain unless doing so prevents its Anchor from functioning.
+
+### Starter Domain catalogue
+
+The [starter catalogue](starter-domains.md) contains ten Domains, each with an Anchor-based mark and two suggested Mastered techniques. Players may use these as their two free starting techniques or create alternatives with the GM. Catalogue techniques remain draft examples pending the unresolved damage, upkeep, and storage rules.
+
+Each Domain and its techniques are also available as a [separate Domain set](domains/README.md).
+
+## Domain development
+
+The GM has final authority over creating, changing, and branching Domains. This authority is exercised through discussion: the player states the desired fiction, the group defines its permissions and limits, and the GM approves a version that fits the game.
+
+New Domains, Domain additions, and branches cost PP. Agree on permissions, fictional requirements, and the PP cost before the player commits. Exact prices remain open. Training, research, experimentation, or discovery can make a development available; spending PP establishes it permanently. Starting Domain allocation remains undefined.
+
+### Worked player journey
+
+[Shadows: from street trickster to keeper of the night roads](journeys/shadows.md) follows eight campaign chapters of experimentation, one Anchor addition, five branch proposals, and twenty-one new techniques. It demonstrates separate permission and mastery purchases, bounded Domain mixing, and a final cooperative rescue. The journey is optional draft material; PP prices, numerical outputs, and coexistence limits remain open.
+
+### New Domains
+
+An additional Domain grants an independently defined Aspect, two Expressions, and one Anchor using the Domain format above. It does not inherit permissions from existing Domains.
+
+### Domain additions
+
+An addition changes an existing Domain without introducing another Aspect. Each purchase makes one clearly stated change and records which restrictions still apply.
+
+| Advancement | It changes | It does not automatically change |
 |---|---|---|
-| **Burning weapon** | Feed a stable flame coating along the weapon. | Modest continuous drain and occupied throughput; the grip and weapon must tolerate heat. Flame may change wounds or ignite material, with no inherited one-damage limit. |
-| **Air pistol** | Establish a pressure difference inside a loaded pipe to propel a small object. | The pipe supplies guidance, reducing fine steering demand; ammunition, loading, aim, and pipe strength matter. Greater output can produce a stronger shot within the apparatus's limits. |
-| **Vacuum pipe** | Maintain airflow into an opening to draw loose material toward it. | Continuous drain; suction weakens with distance and obstruction. Pulling a loose object and moving a resisting creature are different demands. |
-| **Cupped flame jet** | Generate or gather flame, then direct it through a hand-formed opening. | Narrow delivery concentrates the effect at the expense of coverage and occupies both hands. Hand tolerance and control set the safe output; the gesture alone does not create energy. |
-| **Stored lightning** | Gradually accumulate electrical energy in specially adapted hair, then release it through an agreed path. | Preparation exposes an obvious tell and risks disrupted storage. A large discharge is possible because energy was accumulated; the storage and outlet must survive it. |
+| Expression growth | A permitted operation | Aspect, Anchor, generation, tolerance |
+| Anchor growth | How influence begins or continues | What may be influenced |
+| Tolerance growth | What the user can safely endure | Control, healing, resistance to unrelated harm |
+| Boundary change | A stated restriction | Other restrictions or new capabilities |
+| Branch | A new linked Aspect | Permissions over the original Aspect |
 
-These are fictional mechanisms for consistent rulings, not engineering simulations. Clever wording cannot establish unlimited pressure, heat, energy, or unavoidable injury.
+### Domain branches
 
-## Improvement changes how a technique works
+A branch develops a connected Aspect with its own permissions. It may specialize in part of the parent Domain or extend into an agreed related subject. Its Origin remains Internal Energy. A branch begins with one Aspect, two Expressions, and one Anchor; later improvements use the Domain addition rules.
 
-- **Efficiency:** achieve the same effect with less wasted energy.
-- **Handling:** aim, shape, or maintain it with less attention.
-- **Capacity:** safely store more before release.
-- **Delivery:** improve the outlet, projectile, contact, or firing path.
-- **Execution:** shorten setup or develop a different movement sequence.
-- **Output tolerance:** safely handle a stronger release.
+1. The player names the desired capability; the GM may offer possibilities through discoveries or encounters.
+2. Compare it with existing permissions. Use a technique for an already permitted application or an addition for a new operation on the same Aspect. Do not narrow existing permissions to force a branch purchase.
+3. Agree on a branch seed describing the connection and intended development.
+4. Define relevant learning or discovery requirements and the intended permission set and PP cost before the player commits.
+5. Demonstrate the breakthrough. Roll only when uncertainty and consequences matter; failure reveals what remains unresolved rather than automatically erasing progress.
+6. Finalize the branch record together, obtain GM approval, and spend PP once its requirements are met.
 
-Each improvement needs a fictional explanation and, later, an appropriate training or equipment cost. Improvements need not all be available to every technique. A nozzle can improve delivery without increasing the user's internal energy reserve.
+The player chooses which developments to pursue. A branch unlocks improvisation within its permissions; a Mastered technique using it is a separate purchase.
 
-Players may improvise freely within their capabilities. Practising a technique should improve reliability or execution, rather than make every unfamiliar application impossible. The mechanical difference between practised and improvised use remains to be designed.
+For every branch, write:
 
-## Combat must make these choices matter
+- **Parent:** The Domain it develops from.
+- **Aspect:** The specific subject it influences.
+- **Connection:** Why this subject follows from the parent Domain.
+- **Expressions, Anchor, and Boundary:** Its distinct permissions and restrictions.
+- **Separation:** What the parent Domain still cannot do.
+- **Awakening:** The fictional event, study, discovery, adaptation, or relationship that establishes it.
 
-The next design pass should define one shared resolution procedure for acting, responding, and interruption. It must support preparing under pressure, keeping a flow active while moving or attacking, and opponents exploiting visible requirements. No fixed Major/Minor action structure is assumed yet.
+The branch may share an Anchor or Expression name with its parent only when the meaning is restated for the branch's Aspect. A parent Domain never gains a branch's permissions merely because they are related.
 
-Resolve delivery and effect separately in the design: can the attack reach and connect, then what does its delivered effect do against protection? A larger discharge can plausibly hit harder, cover more space, or last longer; those are distinct investments. No numeric damage model is settled here.
+#### Biomass branch example
 
-Before a playable test, decide:
+- **Parent:** Biomass.
+- **Aspect:** Chitin generated from biomass.
+- **Connection:** The user learns to harden their generated, shaped biomass into a protective biological material.
+- **Expressions:** Shape + Harden.
+- **Anchor:** Generated biomass connected to the user's palms.
+- **Boundary:** It can only harden biomass generated and maintained by the parent Domain.
+- **Separation:** The parent Biomass Domain can generate and shape biomass, but cannot harden it into durable chitin.
+- **Awakening:** Study and experimentation produce a repeatable protective structure that preserves movement. An injury may inspire the work but is not itself sufficient.
 
-1. Action timing, reactions, and the attention cost of maintenance.
-2. Reserve size, safe throughput, recovery, and overload consequences.
-3. Damage, protection, wounds, and how greater output changes them.
-4. Benchmark costs for the five example techniques.
-5. Training and the benefit of practising an invented technique.
+This branch gives a precise new permission: hardening generated biomass into durable chitin. It does not independently generate biomass, heal Strain, control other bodies, or make the user immune to harm.
 
-Start by making an ordinary air shot, a maintained burning weapon, and a two-round lightning buildup work in the same short encounter. Use that comparison to set numbers, rather than importing the old system's numbers first.
+## Techniques
+
+A technique applies existing Domain permissions through a stated method. There are two types:
+
+Characters begin with **two approved Mastered techniques at no PP cost**, each supported by their starting Domain permissions. Later Mastered techniques cost PP.
+
+| Type | Development | Output | Base Energy cost |
+|---|---|---|---|
+| Improvised | No PP purchase | GM establishes expected damage or other output from the method and conditions before the roll. | 1 Internal Energy per Expression applied. |
+| Mastered | Purchased with PP, except the two starting techniques; price remains open | Recorded output and an approved additional benefit. | Half the Expression cost, rounded up, minimum 1 Internal Energy. |
+
+Count Expressions actually applied, not every Expression the Domain possesses. Count separate applications, not merely unique keyword names; a coordinated effect can count as one application within its approved scope. Other keyword groups add no base cost by themselves. A two-Expression improvisation costs 2 Energy; its mastered version costs 1. A single-Expression technique costs 1 in either case and gains its mastery benefit without an Energy discount. Approved Minor Effects remain free.
+
+These are base execution costs. Any continuing expenditure is recorded as an **Energy/min** rate. Accumulation and release payments, and unusually demanding effects still need rules.
+
+### Mastered technique record
+
+Write a technique with its keywords and execution record:
+
+- **Name:**
+- **Keywords:** Expressions : Form : Flow : Shape : Size : Range
+- **Method:** What the user actually does.
+- **Dimensions and delivery:** Clarify the selected Shape, Size, and Range, any movement distance, and how the Anchor supports control.
+- **Base output:** Defined damage, movement, protection, control, or another result.
+- **Mastery benefit:** An improvement or attached secondary effect.
+- **Conditions:** What must happen for the output and benefit to apply.
+- **Requirements:** Equipment, posture, medium, or setup.
+- **Interruption:** What breaks or spoils it.
+- **Aftermath:** What remains after use.
+
+### Keyword groups
+
+| Group | Limit | Options or examples |
+|---|---|---|
+| Expressions | One or more; no fixed cap | Available Domain operations, such as Generate, Compress, Shape, Redirect |
+| Form | Exactly 1 | Project, Ward, Shift, Bind, Shape, Veil |
+| Flow | Exactly 1 | Burst, Sustain, Accumulate |
+| Shape | Exactly 1 | Bolt, Stream, Cone, Sphere, Wall, Coating, Custom |
+| Size | Exactly 1 | Palm-sized, Person-sized, Melee-sized, Room-sized, Hallway-sized, Custom |
+| Range | Exactly 1 | Self / Touch, Melee / Reach, Close / Room, Far / Hallway, Distant / Line of Sight |
+
+These limits apply to both Improvised and Mastered techniques. Every Expression must contribute to one coherent effect; additional Expressions do not grant separate attacks or bypass action allowances. Four Expression applications cost 4 Energy improvised or 2 mastered.
+
+Keywords cannot grant a missing Domain permission. Equipment may provide ordinary physical functions. Custom keywords need GM approval and cannot hide several independent permissions in one slot.
+
+### Shape, Size, and Range
+
+Shape describes arrangement, Size describes bulk or spread, and Range describes where the effect can be delivered. They replace a separate area-of-effect category. Use ordinary descriptions for small sizes and distance bands for larger dimensions.
+
+Specify relevant dimensions: a wall needs width and height; a stream needs length and thickness. A palm-sized stream reaching Close can be palm-thick along a Close-length path. A cone reaching Close and Melee-sized at its far end states both its length and spread.
+
+Selecting a Shape requires an appropriate method and permissions. This descriptive Shape field is distinct from the Shape Expression and the Shape Form. Larger Size does not automatically preserve damage or strength, and greater Range does not enlarge coverage. Mastered techniques record approved Size and output together; the GM establishes these for improvisation before the roll. Costs for increasing Size or Range remain open.
+
+An effect can affect everything exposed within its stated shape, subject to its method and cover. It does not automatically spare allies; selective targeting requires appropriate permissions and control and may be a mastery benefit.
+
+### Domain mixing
+
+A technique may use Expressions from several Domains the character possesses without purchasing another Domain just to combine them.
+
+- Label each Expression with its source Domain. It affects only that Domain's Aspect.
+- Satisfy every relevant Anchor and restriction for each part of the method.
+- Explain how the components interact as one coherent effect.
+- Count every Expression application for Energy, then apply the mastery discount if applicable.
+- Choose one Form, Flow, Shape, Size, and Range for the combined technique. Every component must support its role in that configuration.
+
+Mixing grants no new permissions or control over a resulting substance. A branch or addition is required only when the desired method needs a missing permission.
+
+**Cinder Shot:** Flame—Generate + Air—Compress + Redirect : Project : Burst : Bolt : Palm-sized : Close / Room. Generate flame at an outlet and propel it with compressed, directed air; each Domain needs an Anchor supporting its part. It costs 3 Energy improvised or 2 mastered. A possible approved mastery benefit is knockback on a successful hit, within its recorded output.
+
+### Operations
+
+Operations must come from the user's Domain Expressions. These examples are vocabulary, not universal permissions; define each relative to its Aspect.
+
+| Expression | Meaning |
+|---|---|
+| Generate | Create the Domain's substance or phenomenon. |
+| Shape | Change its shape or arrangement. |
+| Move | Displace it through controlled motion. |
+| Redirect | Change its existing direction. |
+| Compress | Pack it into a smaller space. |
+| Absorb | Take it into an approved receptacle or the body. |
+| Harden | Increase its rigidity or resistance to deformation. |
+
+### The six Forms
+
+Choose one primary Form. A Form classifies the technique; it grants no Expressions, reach, automatic success, or additional control.
+
+| Form | Purpose | Example |
+|---|---|---|
+| Project | Send an effect outward. | Release a flame jet. |
+| Ward | Interpose protection. | Raise a wall of shaped biomass. |
+| Shift | Move or redirect something. | Propel yourself using controlled airflow. |
+| Bind | Hold, tether, or hinder. | Generate and shape biomass into grasping tendrils. |
+| Shape | Form or reshape something for use. | Shape biomass into a tool. |
+| Veil | Conceal or obscure. | Distort a view through controlled mist. |
+
+The method must support the purpose: flame does not gain solid restraint through Bind, Ward stops only threats its manifestation can plausibly stop, and Veil grants no automatic invisibility.
+
+**Shape as an Expression** is an operation; **Shape as a Form** identifies reshaping as the main purpose. A flame jet may use the Shape Expression while belonging to Project.
+
+A mastery benefit may cross categories when its method supports it, such as a Project attack that also hinders movement. This does not grant the whole secondary category. Formless remains a card-system feature; improvisation can already use any of these six Forms that the Domain supports.
+
+### Example recipes
+
+Each recipe requires appropriate Domain permissions and an Anchor. Its Method establishes actual delivery.
+
+| Example | Keywords |
+|---|---|
+| Air Pistol: a directed air shot | Compress + Redirect : Project : Burst : Bolt : Palm-sized : Close / Room |
+| Furnace Palm: a palm-thick flame jet | Generate + Shape : Project : Burst : Stream : Palm-sized : Close / Room |
+| Flame Fan: a cone widening to Melee across its far end | Generate + Shape : Project : Burst : Cone : Melee-sized : Close / Room |
+| Burning Screen: a person-sized sheet of flame obscuring a view | Generate + Shape : Veil : Sustain : Wall : Person-sized : Close / Room |
+| Biomass Tool: make a small biomass tool | Generate + Shape : Shape : Sustain : Custom (tool) : Palm-sized : Self / Touch |
+
+### Energy behaviours
+
+- **Burst:** Resolves its release. Ordinary consequences may persist afterward.
+- **Sustain:** Requires continued Energy at its recorded **Energy/min** rate. A generated effect that names Sustain exists only while this upkeep is paid. An intact Anchor is required only when the technique says it is needed for active control or shaping. Steady maintenance differs from active steering; steering demands the attention its method requires.
+- **Accumulate:** Commits Energy to a stated storage method for later release. The storage method defines what holds it, how it is maintained, and how it releases.
+
+Damage does not automatically interrupt a technique. Interruption follows the recorded method: broken concentration, lost contact, damaged equipment, disrupted material, or another stated condition. Energy spent on an attempt is not refunded for a miss.
+
+### Mastery benefits and improvement
+
+Spending PP establishes a mastered technique's recorded output and additional benefit alongside its Energy discount. A benefit may increase damage, movement, protection, or restraint, or attach a secondary effect justified by the method. This also gives single-Expression techniques a benefit despite receiving no Energy discount. Numerical outputs and benefit limits remain to be defined.
+
+The GM approves the benefit and its conditions with the player. Recorded output is a baseline, not a guaranteed hit or permission to bypass protection. Mastery cannot grant missing Domain permissions.
+
+Improvised techniques still cause ordinary natural consequences: an improvised flame may ignite flammable material. The mastered version gains its recorded improvement under its stated conditions.
+
+Further improvements cost PP and change a specific part of output or execution. Record what changes and why the method supports it. Repetition alone does not automatically grant mastery benefits.
+
+### Minor Effects
+
+Players may define effortless applications within their Domain permissions with GM approval. Minor Effects cost no PP to define and spend no tracked Energy.
+
+They require little effort or precision, provide no meaningful attack, protection, healing, or Energy recovery, and cannot store power or accumulate material for a larger effect. An effect that generates and sustains biomass is not a Minor Effect because it requires upkeep. Making a small breeze with an appropriate Air Domain is one example.
+
+Classification follows the use: a breeze may be minor, but deflecting a projectile requires normal technique resolution. Repetition cannot bypass the Energy cost of a larger task. Minor Effect describes Energy demand, not action allowance; its action requirement follows what the character does.
+
+## Still to decide
+
+1. Further keyword definitions and examples within the recorded limits.
+2. PP prices, mastered output values, and limits on mastery benefits.
+3. Major/Minor costs for activation, maintenance, accumulation, and release.
+4. Several-threat and cooperation procedures.
+5. Roll mechanics and thresholds.
+6. Energy reserves, ongoing and exceptional costs, safe output, recovery, and dangerous overexertion.
+7. Damage severity, protection, and Strain loss.
+8. Storage, persistence, and interruption rules.
+9. Starting Domain allocation, specific development requirements, and how many Domains or branches may coexist.
+10. Ordinary movement allowance across distance bands and any costs for extending range or area.
+
+Do not treat earlier numerical technique recipes or a separate wound track as accepted rules.
