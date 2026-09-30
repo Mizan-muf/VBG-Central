@@ -16,6 +16,14 @@ Use the [Domain and technique templates](../templates.md) when creating or expan
 | [Echoes](echoes.md) | Borrowed Command; Corner Knock |
 | [Friction](friction.md) | Lockstep; Surehold |
 | [Shadows](shadows.md) | Crooked Silhouette; Shadow Script |
+| [Electricity](electricity.md) | Arc Needle; Live Conductor |
+| [Scales](scales.md) | Scale Mantle; Razor Gauntlet |
+| [Drive](drive.md) | Brace and Bank; Loaded Blow |
+| [Cobwebs](cobwebs.md) | Snare Lattice; Gossamer Screen |
+| [Hellion](hellion.md) | Dreadnought Flesh; Ruin Drive |
+| [Joker](joker.md) | Fool's Cut; Jester's Fetch |
+| [Lepricon](lepricon.md) | Bullion Shot; Toll Aegis |
+| [Midas Touch](midas-touch.md) | Auric Torrent; Gilded Aegis |
 
 [Read the combined catalogue](../starter-domains.md) or return to [Domain Combat](../README.md).
 

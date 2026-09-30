@@ -12,15 +12,27 @@ Marks are bodily signs of an Anchor engaging. Their locations and appearances be
 
 ## Domain
 
-- **Aspect:** Existing air currents and pressure differences.
-- **Expressions:** Compress packs air into a smaller space; Redirect changes the direction of an existing current, including one produced by releasing compressed air.
-- **Anchor:** Breath establishes influence beside the mouth. Maintain an uninterrupted breath and connected airflow to control it out to Close / Room. Breaking either ends control; released air continues naturally.
+- **Name:** Air
+- **Origin:** Internal Energy
+- **Aspect:**
+  - **Keyword:** `Air Currents`
+  - **Explanation:** Existing air currents and pressure differences.
+- **Expressions:**
+  - **Keywords:** `Compress` + `Redirect`
+  - **Compress:** *(Operation Keyword)* Packs air into a smaller space.
+  - **Redirect:** *(Operation Keyword)* Changes the direction of an existing current, including one produced by releasing compressed air.
+- **Anchor:**
+  - **Keywords:** `Breath` (Medium) · `Close / Room` (Range Band)
+  - **Establish:** Breath establishes influence beside the mouth.
+  - **Reach:** Connected airflow controls it out to Close / Room.
+  - **Maintain:** Maintain an uninterrupted breath and connected airflow.
+  - **Break:** Breaking either breath or airflow ends control; released air continues naturally.
 - **Mark:** Curved lines around the lips and throat ripple outward during controlled breathing.
 - **Boundary:** Cannot generate air, affect air inside a living body, or control weather. Pressure and recoil can harm the user.
 
 ## Air Pistol
 
-Keywords: Compress + Redirect : Project : Burst : Bolt : Palm-sized : Close / Room
+- **Keywords:** `Compress + Redirect` (Expressions) : `Project` (Form) : `Burst` (Flow) : `Bolt` (Shape) : `Palm-sized` (Size) : `Close / Room` (Range)
 
 **Method:** Compress air at the mouth and redirect its release into a narrow shot along a clear path.
 
@@ -34,7 +46,7 @@ Keywords: Compress + Redirect : Project : Burst : Bolt : Palm-sized : Close / Ro
 
 ## Crosswind Guard
 
-Keywords: Redirect : Ward : Sustain : Wall : Person-sized : Melee / Reach
+- **Keywords:** `Redirect` (Expressions) : `Ward` (Form) : `Sustain` (Flow) : `Wall` (Shape) : `Person-sized` (Size) : `Melee / Reach` (Range)
 
 **Method:** Turn an existing current into a crosswind across the front of the body.
 

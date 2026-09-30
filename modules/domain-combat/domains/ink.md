@@ -12,15 +12,27 @@ Marks are bodily signs of an Anchor engaging. Their locations and appearances be
 
 ## Domain
 
-- **Aspect:** Ink marks personally written by the user.
-- **Expressions:** Spread moves marked ink across connected surfaces; Gather draws it back along those surfaces into a selected mark.
-- **Anchor:** Write the initial mark by hand. Control requires sight of the affected ink within Close / Room; losing sight or range ends motion.
+- **Name:** Ink
+- **Origin:** Internal Energy
+- **Aspect:**
+  - **Keyword:** `Written Ink`
+  - **Explanation:** Ink marks personally written by the user.
+- **Expressions:**
+  - **Keywords:** `Spread` + `Gather`
+  - **Spread:** *(Operation Keyword)* Moves marked ink across connected surfaces.
+  - **Gather:** *(Operation Keyword)* Draws it back along those surfaces into a selected mark.
+- **Anchor:**
+  - **Keywords:** `Handwriting` (Medium) · `Close / Room` (Range Band)
+  - **Establish:** Write the initial mark by hand.
+  - **Reach:** Up to Close / Room with line of sight.
+  - **Maintain:** Maintain sight of the affected ink within Close / Room across a connected surface.
+  - **Break:** Losing sight or range ends motion.
 - **Mark:** Dark whorls on the writing fingertips flow like wet ink while the Anchor is active.
 - **Boundary:** Cannot create ink, move it through open air, read hidden information, or affect another person's writing. Displaced ink remains where left and may dry or stain naturally.
 
 ## Blackout Script
 
-Keywords: Spread : Veil : Sustain : Coating : Person-sized : Close / Room
+- **Keywords:** `Spread` (Expressions) : `Veil` (Form) : `Sustain` (Flow) : `Coating` (Shape) : `Person-sized` (Size) : `Close / Room` (Range)
 
 **Method:** Spread a personally written mark over a connected window or written surface.
 
@@ -34,7 +46,7 @@ Keywords: Spread : Veil : Sustain : Coating : Person-sized : Close / Room
 
 ## Returning Cipher
 
-Keywords: Gather : Shape : Burst : Custom (written mark) : Palm-sized : Close / Room
+- **Keywords:** `Gather` (Expressions) : `Shape` (Form) : `Burst` (Flow) : `Custom (written mark)` (Shape) : `Palm-sized` (Size) : `Close / Room` (Range)
 
 **Method:** Draw the ink of a personally written message back into a compact mark on the same connected surface.
 

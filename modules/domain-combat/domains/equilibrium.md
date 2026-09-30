@@ -12,15 +12,27 @@ Marks are bodily signs of an Anchor engaging. Their locations and appearances be
 
 ## Domain
 
-- **Aspect:** Incoming sound, light, and heat in their existing energy forms.
-- **Expressions:** Absorb takes energy through the mouth into a Bank; Release discharges stored energy through the mouth. Release permits shaping the discharge at the outlet, but no later steering.
-- **Anchor:** The mouth must receive or emit the energy. Closing it prevents transfer; already banked energy remains stored. Incoming absorption is limited to energy reaching the opening, not an entire surrounding attack.
+- **Name:** Equilibrium
+- **Origin:** Internal Energy
+- **Aspect:**
+  - **Keyword:** `Ambient Energy`
+  - **Explanation:** Incoming sound, light, and heat in their existing energy forms.
+- **Expressions:**
+  - **Keywords:** `Absorb` + `Release`
+  - **Absorb:** *(Operation Keyword)* Takes energy through the mouth into a Bank.
+  - **Release:** *(Operation Keyword)* Discharges stored energy through the mouth, permitting shaping at the outlet without later steering.
+- **Anchor:**
+  - **Keywords:** `Mouth` (Medium) · `Self / Touch` to `Variable` (Range Bands)
+  - **Establish:** The mouth must receive or emit the energy.
+  - **Reach:** Limited to energy physically reaching the mouth opening upon intake; discharge range follows the release method.
+  - **Maintain:** Keep the mouth open during transfer; closing it prevents transfer while already banked energy remains stored.
+  - **Break:** Closing or obstructing the mouth, or reaching Bank capacity ends intake.
 - **Mark:** A ring around the lips continues down the throat; it ripples with sound, glows with light, or turns ember-red with heat.
 - **Boundary:** The Bank holds one energy type at a time. Exceeding its capacity causes Strain; capacity, retention, and loss remain open. Energy cannot be amplified, converted, or spent as Internal Energy. Unabsorbed portions of a threat can still harm the user.
 
 ## Dragon Reversal
 
-Keywords: Absorb + Release : Project : Burst : Custom (chosen discharge) : Custom (received envelope) : Custom (received maximum)
+- **Keywords:** `Absorb + Release` (Expressions) : `Project` (Form) : `Burst` (Flow) : `Custom (chosen discharge)` (Shape) : `Custom (received envelope)` (Size) : `Custom (received maximum)` (Range)
 
 **Method:** Receive a compatible incoming effect through the mouth, then discharge the entire Bank in the same motion. Agree on the received effect's size and maximum delivery range before resolution.
 
@@ -34,7 +46,7 @@ Keywords: Absorb + Release : Project : Burst : Custom (chosen discharge) : Custo
 
 ## Hearth Breath
 
-Keywords: Release : Shape : Burst : Stream : Palm-sized : Self / Touch
+- **Keywords:** `Release` (Expressions) : `Shape` (Form) : `Burst` (Flow) : `Stream` (Shape) : `Palm-sized` (Size) : `Self / Touch` (Range)
 
 **Method:** Exhale a controlled portion of stored heat onto a held object.
 

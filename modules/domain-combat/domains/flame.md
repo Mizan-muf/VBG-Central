@@ -12,15 +12,27 @@ Marks are bodily signs of an Anchor engaging. Their locations and appearances be
 
 ## Domain
 
-- **Aspect:** Flame generated from the user's hands.
-- **Expressions:** Generate produces flame at a palm; Shape arranges that flame while it remains connected to the palm.
-- **Anchor:** An open palm begins and maintains a connected flame out to Close / Room. Closing it or severing the flame's connection ends control.
+- **Name:** Flame
+- **Origin:** Internal Energy
+- **Aspect:**
+  - **Keyword:** `Flame`
+  - **Explanation:** Flame generated from the user's hands.
+- **Expressions:**
+  - **Keywords:** `Generate` + `Shape`
+  - **Generate:** *(Operation Keyword)* Produces flame at a palm from Internal Energy.
+  - **Shape:** *(Operation Keyword)* Arranges that flame while it remains connected to the palm.
+- **Anchor:**
+  - **Keywords:** `Open Palm` (Medium) · `Close / Room` (Range Band)
+  - **Establish:** An open palm begins connected flame.
+  - **Reach:** Up to Close / Room while maintaining physical connection.
+  - **Maintain:** Keep the palm open and the flame connected.
+  - **Break:** Closing the palm or severing the flame's connection ends control.
 - **Mark:** Ember-like spirals across the palms brighten from the centre during generation.
 - **Boundary:** Cannot control unrelated fire or separated flame, create fuel, or grant heat immunity. Unsupported magical flame expires when its supply ends; ignited fuel can keep burning naturally.
 
 ## Furnace Palm
 
-Keywords: Generate + Shape : Project : Burst : Stream : Palm-sized : Close / Room
+- **Keywords:** `Generate + Shape` (Expressions) : `Project` (Form) : `Burst` (Flow) : `Stream` (Shape) : `Palm-sized` (Size) : `Close / Room` (Range)
 
 **Method:** Release a palm-thick jet in a chosen direction, shaping it while connected to the hand.
 
@@ -34,7 +46,7 @@ Keywords: Generate + Shape : Project : Burst : Stream : Palm-sized : Close / Roo
 
 ## Burning Screen
 
-Keywords: Generate + Shape : Veil : Sustain : Wall : Person-sized : Melee / Reach
+- **Keywords:** `Generate + Shape` (Expressions) : `Veil` (Form) : `Sustain` (Flow) : `Wall` (Shape) : `Person-sized` (Size) : `Melee / Reach` (Range)
 
 **Method:** Raise a connected sheet of flame from the palm between the user and an observer.
 
